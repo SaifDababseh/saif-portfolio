@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050508"/>
+      <stop offset="50%" style="stop-color:#0d1a2a"/>
+      <stop offset="100%" style="stop-color:#050508"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#050508;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g1)"/>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+  <!-- Grid lines -->
+  <g stroke="#00d4ff" stroke-width="0.5" opacity="0.08">
+    <line x1="0" y1="180" x2="1920" y2="180"/>
+    <line x1="0" y1="360" x2="1920" y2="360"/>
+    <line x1="0" y1="540" x2="1920" y2="540"/>
+    <line x1="0" y1="720" x2="1920" y2="720"/>
+    <line x1="0" y1="900" x2="1920" y2="900"/>
+    <line x1="384" y1="0" x2="384" y2="1080"/>
+    <line x1="768" y1="0" x2="768" y2="1080"/>
+    <line x1="1152" y1="0" x2="1152" y2="1080"/>
+    <line x1="1536" y1="0" x2="1536" y2="1080"/>
+  </g>
+  <!-- Corner decorations -->
+  <g stroke="#00d4ff" stroke-width="2" fill="none" opacity="0.4">
+    <polyline points="40,40 40,120 120,120"/>
+    <polyline points="1880,40 1880,120 1800,120"/>
+    <polyline points="40,1040 40,960 120,960"/>
+    <polyline points="1880,1040 1880,960 1800,960"/>
+  </g>
+  <!-- Center text -->
+  <text x="960" y="500" text-anchor="middle" font-family="monospace" font-size="14" fill="#00d4ff" opacity="0.6" letter-spacing="4">ENVIRONMENT ART</text>
+  <text x="960" y="545" text-anchor="middle" font-family="monospace" font-size="40" fill="#f0f0fa" font-weight="bold" letter-spacing="2">Game World Alpha</text>
+  <text x="960" y="590" text-anchor="middle" font-family="monospace" font-size="14" fill="#8888aa" letter-spacing="2">Place your thumbnail.jpg here: /public/projects/game-world-alpha/thumbnail.jpg</text>
+  <!-- Diamond icon -->
+  <rect x="940" y="430" width="40" height="40" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6" transform="rotate(45 960 450)"/>
+</svg>

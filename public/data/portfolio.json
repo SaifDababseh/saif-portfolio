@@ -1,0 +1,238 @@
+{
+  "projects": [
+    {
+      "id": "game-world-alpha",
+      "title": "Game World Alpha",
+      "subtitle": "Open World Environment Design",
+      "category": "Environment Art",
+      "tags": ["Unity", "Environment Art", "Level Design", "Shader Graph", "HDRP"],
+      "year": "2024",
+      "status": "Completed",
+      "featured": true,
+      "thumbnail": "/projects/game-world-alpha/thumbnail.jpg",
+      "heroImage": "/projects/game-world-alpha/hero.jpg",
+      "gallery": [
+        "/projects/game-world-alpha/gallery/01.jpg",
+        "/projects/game-world-alpha/gallery/02.jpg",
+        "/projects/game-world-alpha/gallery/03.jpg",
+        "/projects/game-world-alpha/gallery/04.jpg"
+      ],
+      "videoUrl": "",
+      "videoEmbed": "",
+      "shortDescription": "A vast open-world environment featuring photorealistic terrain, dynamic weather systems, and hand-crafted biomes built entirely in Unity HDRP.",
+      "fullDescription": "Game World Alpha is an ambitious open-world environment project showcasing advanced terrain sculpting, custom shader development, and procedural vegetation systems. The world spans multiple distinct biomes each with unique visual identities, atmospheric conditions, and lighting setups designed to evoke specific emotional responses from the player.",
+      "role": "Lead Environment Artist & Unity Developer",
+      "tools": ["Unity HDRP", "Shader Graph", "World Creator", "SpeedTree", "Substance 3D Painter", "Blender"],
+      "challenges": "The primary technical challenge was achieving photorealistic foliage rendering at scale without destroying frame rate. I developed a custom LOD system combined with GPU instancing and a wind simulation shader that reduced draw calls by 60% while maintaining visual fidelity.",
+      "results": "Achieved stable 60fps in editor with 50,000+ foliage instances visible. The project received recognition in the ArtStation community and was featured in a Unity case study.",
+      "links": {
+        "artstation": "https://artstation.com",
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "void-protocol",
+      "title": "Void Protocol",
+      "subtitle": "Sci-Fi First Person Shooter",
+      "category": "Game Design",
+      "tags": ["Unity", "Game Design", "C#", "URP", "VFX Graph"],
+      "year": "2024",
+      "status": "Completed",
+      "featured": true,
+      "thumbnail": "/projects/void-protocol/thumbnail.jpg",
+      "heroImage": "/projects/void-protocol/hero.jpg",
+      "gallery": [
+        "/projects/void-protocol/gallery/01.jpg",
+        "/projects/void-protocol/gallery/02.jpg",
+        "/projects/void-protocol/gallery/03.jpg"
+      ],
+      "videoUrl": "",
+      "videoEmbed": "",
+      "shortDescription": "A tightly designed sci-fi FPS featuring reactive AI enemies, modular weapon systems, and a procedural level generation pipeline.",
+      "fullDescription": "Void Protocol is a complete game design and development project where I served as the sole designer and primary developer. The game features a robust combat system with 12 unique weapons, behavioral AI using a custom finite state machine, and 20 hand-crafted levels complemented by procedural generation for endless replayability.",
+      "role": "Game Designer & Unity Developer",
+      "tools": ["Unity URP", "C#", "VFX Graph", "ProBuilder", "Blender", "Substance 3D Painter"],
+      "challenges": "Designing AI that felt challenging but fair required extensive playtesting and iteration. I built a custom behavior tree system from scratch that allowed enemies to dynamically adapt to player tactics — flanking, retreating, calling for backup.",
+      "results": "The game shipped on itch.io and received over 2,000 downloads in its first month. Player retention was 40% higher than comparable indie FPS titles.",
+      "links": {
+        "artstation": "",
+        "github": "https://github.com",
+        "live": "https://itch.io"
+      }
+    },
+    {
+      "id": "nexus-city",
+      "title": "Nexus City",
+      "subtitle": "Cyberpunk Urban Environment",
+      "category": "Environment Art",
+      "tags": ["Unreal Engine 5", "Environment Art", "Nanite", "Lumen", "Houdini"],
+      "year": "2023",
+      "status": "Completed",
+      "featured": true,
+      "thumbnail": "/projects/nexus-city/thumbnail.jpg",
+      "heroImage": "/projects/nexus-city/hero.jpg",
+      "gallery": [
+        "/projects/nexus-city/gallery/01.jpg",
+        "/projects/nexus-city/gallery/02.jpg",
+        "/projects/nexus-city/gallery/03.jpg",
+        "/projects/nexus-city/gallery/04.jpg"
+      ],
+      "videoUrl": "",
+      "videoEmbed": "",
+      "shortDescription": "A dense cyberpunk cityscape built in Unreal Engine 5 leveraging Nanite geometry, Lumen global illumination, and procedural building generation via Houdini.",
+      "fullDescription": "Nexus City is a cinematic environment piece exploring the aesthetic language of neo-noir cyberpunk. Every building facade, neon sign, and rain-slicked alleyway was crafted to tell a story about a world where mega-corporations dominate every aspect of life. The project demonstrates mastery of UE5's newest rendering technologies.",
+      "role": "Environment Artist & Technical Artist",
+      "tools": ["Unreal Engine 5", "Houdini", "Substance 3D Designer", "Blender", "Megascans"],
+      "challenges": "Managing the sheer density of assets while maintaining real-time performance was the core challenge. Using Nanite for micro-detail on building facades and Lumen for the complex neon light interactions required careful optimization and material setup.",
+      "results": "The final cinematic renders achieved photorealistic quality and the project was selected as a featured work on ArtStation's trending page.",
+      "links": {
+        "artstation": "https://artstation.com",
+        "github": "",
+        "live": ""
+      }
+    },
+    {
+      "id": "arena-combat",
+      "title": "Arena Combat System",
+      "subtitle": "Third Person Combat Prototype",
+      "category": "Game Design",
+      "tags": ["Unity", "C#", "Animation Rigging", "Game Design", "Combat Design"],
+      "year": "2023",
+      "status": "Completed",
+      "featured": false,
+      "thumbnail": "/projects/arena-combat/thumbnail.jpg",
+      "heroImage": "/projects/arena-combat/hero.jpg",
+      "gallery": [
+        "/projects/arena-combat/gallery/01.jpg",
+        "/projects/arena-combat/gallery/02.jpg"
+      ],
+      "videoUrl": "",
+      "videoEmbed": "",
+      "shortDescription": "A fluid third-person combat prototype showcasing combo systems, parry mechanics, and responsive animation blending.",
+      "fullDescription": "Arena Combat System is a deep-dive into combat design philosophy. Built as a standalone prototype, it explores what makes melee combat feel satisfying — the perfect blend of animation quality, input responsiveness, visual feedback, and audio design. The system supports complex combo chains, perfect parries, and enemy juggling.",
+      "role": "Game Designer & Developer",
+      "tools": ["Unity", "C#", "Animation Rigging", "Cinemachine", "FMOD"],
+      "challenges": "Achieving satisfying hit feedback required synchronizing animation, VFX, camera shake, and audio within a single frame. I developed a HitStop system that pauses animation briefly on impact — a technique used by From Software games — which dramatically improved combat feel.",
+      "results": "The prototype was used as a foundation for a team game jam project that won first place at a regional game development competition.",
+      "links": {
+        "artstation": "",
+        "github": "https://github.com",
+        "live": ""
+      }
+    }
+  ],
+  "about": {
+    "name": "Saif Dababseh",
+    "title": "Game Designer | Environment Artist | Unity Developer",
+    "bio": "I'm a game designer and environment artist based in Nablus, Palestine, with a deep passion for crafting immersive digital worlds. My work sits at the intersection of technical precision and artistic vision — I believe the best game environments don't just look beautiful, they tell stories.\n\nWith hands-on experience in Unity and Unreal Engine 5, I specialize in building environments that feel alive: dynamic lighting, atmospheric particle systems, and world-building that pulls players into alternate realities. My background spans level design, shader development, and game systems design, giving me a holistic understanding of how all the pieces fit together.\n\nI'm currently seeking internship and freelance opportunities where I can contribute to ambitious projects alongside talented teams.",
+    "email": "saif.dababseh@email.com",
+    "linkedin": "https://linkedin.com/in/saifdababseh",
+    "github": "https://github.com/saifdababseh",
+    "whatsapp": "+970591234567",
+    "location": "Nablus, West Bank, Palestine",
+    "availability": "Available for internships & freelance",
+    "resumeUrl": "/resume-saif-dababseh.pdf",
+    "skills": [
+      {
+        "category": "Game Engines",
+        "items": [
+          { "name": "Unity (HDRP/URP)", "level": 90 },
+          { "name": "Unreal Engine 5", "level": 75 },
+          { "name": "Unity Shader Graph", "level": 85 }
+        ]
+      },
+      {
+        "category": "3D & Environment Art",
+        "items": [
+          { "name": "Blender", "level": 88 },
+          { "name": "Substance 3D Painter", "level": 82 },
+          { "name": "Substance 3D Designer", "level": 70 },
+          { "name": "World Creator", "level": 78 },
+          { "name": "SpeedTree", "level": 72 }
+        ]
+      },
+      {
+        "category": "Programming",
+        "items": [
+          { "name": "C# (Unity)", "level": 85 },
+          { "name": "HLSL/Shader Code", "level": 68 },
+          { "name": "Python (Scripting)", "level": 60 }
+        ]
+      },
+      {
+        "category": "Game Design",
+        "items": [
+          { "name": "Level Design", "level": 88 },
+          { "name": "Combat Systems Design", "level": 80 },
+          { "name": "Game Feel & Juice", "level": 85 },
+          { "name": "Narrative Design", "level": 70 }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Freelance Game Developer",
+        "company": "Self-Employed",
+        "period": "2022 – Present",
+        "description": "Developing complete game experiences and environment art for independent clients, with a focus on Unity projects and ArtStation portfolio pieces."
+      },
+      {
+        "title": "Game Design Intern",
+        "company": "AN-Najah National University – CS Department",
+        "period": "2023",
+        "description": "Assisted in developing educational game prototypes, focusing on game mechanics design and Unity development for academic research projects."
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. Computer Science",
+        "institution": "An-Najah National University",
+        "period": "2020 – 2024",
+        "focus": "Specialization in Software Engineering with focus on Game Development"
+      }
+    ]
+  },
+  "blog": [
+    {
+      "id": "designing-for-atmosphere",
+      "title": "Designing for Atmosphere: Lessons from Cyberpunk Environment Art",
+      "category": "Environment Art",
+      "date": "2024-06-15",
+      "readTime": "8 min read",
+      "excerpt": "What makes a game environment feel alive versus feeling like a static backdrop? After building Nexus City, I've developed a framework for atmospheric design that goes beyond pretty screenshots.",
+      "thumbnail": "/blog/designing-for-atmosphere.jpg",
+      "tags": ["Environment Art", "Design Theory", "Unreal Engine 5"]
+    },
+    {
+      "id": "combat-feel-science",
+      "title": "The Science of Combat Feel: HitStop, Screenshake, and the 100ms Rule",
+      "category": "Game Design",
+      "date": "2024-04-22",
+      "readTime": "12 min read",
+      "excerpt": "Great combat doesn't just look good — it's a precisely engineered sensory experience. Here's the technical breakdown of how I make hits feel devastating.",
+      "thumbnail": "/blog/combat-feel.jpg",
+      "tags": ["Game Design", "Unity", "Combat Systems"]
+    },
+    {
+      "id": "shader-graph-beginners",
+      "title": "Unity Shader Graph: Going Beyond the Basics",
+      "category": "Technical",
+      "date": "2024-02-10",
+      "readTime": "15 min read",
+      "excerpt": "Most Shader Graph tutorials stop at the basics. This guide goes deep — custom lighting models, triplanar mapping, and techniques I use in production.",
+      "thumbnail": "/blog/shader-graph.jpg",
+      "tags": ["Unity", "Shader Graph", "Technical Art"]
+    },
+    {
+      "id": "open-world-performance",
+      "title": "Open World Performance: How I Rendered 50k Foliage Instances at 60fps",
+      "category": "Technical",
+      "date": "2023-11-05",
+      "readTime": "10 min read",
+      "excerpt": "Performance optimization for open worlds is an art form. Here's the complete breakdown of my GPU instancing + custom LOD pipeline.",
+      "thumbnail": "/blog/open-world.jpg",
+      "tags": ["Unity", "Performance", "Environment Art"]
+    }
+  ]
+}

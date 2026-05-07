@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050508"/><stop offset="100%" style="stop-color:#0d0d1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:0.1"/><stop offset="100%" style="stop-color:#050508;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g stroke="#a855f7" stroke-width="0.5" opacity="0.08">
+    <line x1="0" y1="225" x2="1200" y2="225"/><line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="675"/><line x1="600" y1="0" x2="600" y2="675"/><line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+  <g stroke="#a855f7" stroke-width="1.5" fill="none" opacity="0.4">
+    <polyline points="30,30 30,80 80,80"/><polyline points="1170,30 1170,80 1120,80"/>
+    <polyline points="30,645 30,595 80,595"/><polyline points="1170,645 1170,595 1120,595"/>
+  </g>
+  <text x="600" y="305" text-anchor="middle" font-family="monospace" font-size="11" fill="#a855f7" opacity="0.7" letter-spacing="4">BLOG POST</text>
+  <text x="600" y="360" text-anchor="middle" font-family="monospace" font-size="26" fill="#f0f0fa" font-weight="bold">The Science of Combat Feel</text>
+  <text x="600" y="400" text-anchor="middle" font-family="monospace" font-size="11" fill="#555577">Replace with your image in /public/blog/</text>
+</svg>
