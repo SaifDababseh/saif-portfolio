@@ -46,7 +46,7 @@ export function BlogPostClient({ post }: { post: BlogPost }) {
         {/* Content */}
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}>
           <div className="p-8 border border-neon-blue/20 bg-surface text-center mb-12">
-            <div className="font-mono text-xs text-neon-blue mb-3 tracking-widest uppercase">// Article Content</div>
+            <div className="font-mono text-xs text-neon-blue mb-3 tracking-widest uppercase">{/* Article Content */}</div>
             <p className="font-body text-text-secondary leading-relaxed mb-4">{post.excerpt}</p>
             <p className="font-mono text-xs text-text-muted leading-relaxed">
               Full article content goes here. Add a{" "}
