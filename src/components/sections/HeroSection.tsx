@@ -50,7 +50,7 @@ export function HeroSection() {
           className="flex items-center justify-center gap-3 mb-8"
         >
           <div className="h-px w-10 bg-gradient-to-r from-transparent to-neon-blue" />
-          <span className="font-mono text-xs text-neon-blue tracking-[0.4em] uppercase select-none">Portfolio · 2024</span>
+          <span className="font-mono text-xs text-neon-blue tracking-[0.4em] uppercase select-none">Portfolio · 2026</span>
           <div className="h-px w-10 bg-gradient-to-l from-transparent to-neon-blue" />
         </motion.div>
 
